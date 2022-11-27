@@ -1,0 +1,22 @@
+﻿  ADS_CA2_Tree_Tests.cpp
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(79,1): error C3867: 'tNode<int>::getParent': non-standard syntax; use '&' to create a pointer to member
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(78): message : while compiling class template member function 'tNode<int> *tNode<int>::getParent(void)'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree_Tests\ADS_CA2_Tree_Tests.cpp(45): message : see reference to function template instantiation 'tNode<int> *tNode<int>::getParent(void)' being compiled
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree_Tests\ADS_CA2_Tree_Tests.cpp(18): message : see reference to class template instantiation 'tNode<int>' being compiled
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(79,1): error C2440: 'return': cannot convert from 'tNode<int> *(__cdecl tNode<int>::* )(void)' to 'tNode<int> *'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(79,15): message : There is no context in which this conversion is possible
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(67,1): error C3867: 'tNode<int>::getLeft': non-standard syntax; use '&' to create a pointer to member
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(66): message : while compiling class template member function 'tNode<int> *tNode<int>::getLeft(void)'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree_Tests\ADS_CA2_Tree_Tests.cpp(51): message : see reference to function template instantiation 'tNode<int> *tNode<int>::getLeft(void)' being compiled
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(67,1): error C2440: 'return': cannot convert from 'tNode<int> *(__cdecl tNode<int>::* )(void)' to 'tNode<int> *'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(67,15): message : There is no context in which this conversion is possible
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(73,1): error C3867: 'tNode<int>::getRight': non-standard syntax; use '&' to create a pointer to member
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(72): message : while compiling class template member function 'tNode<int> *tNode<int>::getRight(void)'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree_Tests\ADS_CA2_Tree_Tests.cpp(57): message : see reference to function template instantiation 'tNode<int> *tNode<int>::getRight(void)' being compiled
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(73,1): error C2440: 'return': cannot convert from 'tNode<int> *(__cdecl tNode<int>::* )(void)' to 'tNode<int> *'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tNode.h(73,15): message : There is no context in which this conversion is possible
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tree.h(107,2): error C2065: 'cout': undeclared identifier
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tree.h(105): message : while compiling class template member function 'void Tree<int>::printPreOrder(void)'
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree_Tests\ADS_CA2_Tree_Tests.cpp(115): message : see reference to function template instantiation 'void Tree<int>::printPreOrder(void)' being compiled
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree_Tests\ADS_CA2_Tree_Tests.cpp(81): message : see reference to class template instantiation 'Tree<int>' being compiled
+C:\Users\kevin\source\repos\ConorBegley_KevinDaly_ADS_CA2_Project1\ADS_CA2_Tree\tree.h(107,10): error C2065: 'endl': undeclared identifier
